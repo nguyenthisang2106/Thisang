@@ -112,3 +112,34 @@ border-radius:10px;
 margin:10px auto;
 max-width:700px;
 }
+.hero{
+position:relative;
+width:100%;
+max-width:900px;
+margin:30px auto;
+}
+
+.hero img{
+width:100%;
+border-radius:12px;
+}
+
+.hero-text{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:white;
+}
+
+.hero-text h1{
+font-size:48px;
+margin:0;
+text-shadow:2px 2px 10px rgba(0,0,0,0.7);
+}
+
+.hero-text p{
+font-size:22px;
+text-shadow:2px 2px 10px rgba(0,0,0,0.7);
+}
